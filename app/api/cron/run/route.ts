@@ -22,7 +22,7 @@ import {
   sendSingleReportAttempt,
 } from "@/lib/report-email-delivery";
 
-export const maxDuration = 800;
+export const maxDuration = 300; // max Vercel Hobby
 export const dynamic = "force-dynamic";
 
 // How many due projects the tick runs at once. Until 2026-09-12 it was one:

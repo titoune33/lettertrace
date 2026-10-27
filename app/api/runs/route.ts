@@ -25,7 +25,7 @@ import {
 } from "@/lib/trial";
 import { captureTrialLimit } from "@/lib/posthog-server";
 
-export const maxDuration = 800;
+export const maxDuration = 300; // max Vercel Hobby
 export const dynamic = "force-dynamic";
 
 // POST /api/runs, execute a monitoring run now for the signed-in user's project.

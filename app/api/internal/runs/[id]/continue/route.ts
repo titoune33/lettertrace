@@ -7,7 +7,7 @@ import { recordOpsError } from "@/lib/ops";
 
 // A leg gets a whole invocation, exactly like the run routes that start runs:
 // RUN_TIME_BUDGET_MS is derived from this ceiling.
-export const maxDuration = 800;
+export const maxDuration = 300; // max Vercel Hobby
 
 /**
  * POST /api/internal/runs/:id/continue — run the next leg of a run that reached
