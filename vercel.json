@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "$comment": "Crons adaptés au plan Vercel Hobby (1 exécution/jour max par job). Les fréquences amont (*/6, */15) peuvent être rétablies avec le plan Pro ou un scheduler externe postant CRON_SECRET sur ces endpoints.",
   "crons": [
     {
       "path": "/api/cron/run",
